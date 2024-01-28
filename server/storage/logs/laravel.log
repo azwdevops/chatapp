@@ -1,0 +1,20 @@
+[2024-01-28 15:42:33] local.ERROR: filemtime(): stat failed for /home/azwzach/github-mine-public/laravel/chatapp/.env {"exception":"[object] (ErrorException(code: 0): filemtime(): stat failed for /home/azwzach/github-mine-public/laravel/chatapp/.env at /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php:99)
+[stacktrace]
+#0 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php(99): filemtime()
+#3 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\ServeCommand->handle()
+#4 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#6 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#8 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call()
+#9 /home/azwzach/github-mine-public/laravel/chatapp/vendor/symfony/console/Command/Command.php(326): Illuminate\\Console\\Command->execute()
+#10 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#11 /home/azwzach/github-mine-public/laravel/chatapp/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#12 /home/azwzach/github-mine-public/laravel/chatapp/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#13 /home/azwzach/github-mine-public/laravel/chatapp/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#14 /home/azwzach/github-mine-public/laravel/chatapp/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#15 /home/azwzach/github-mine-public/laravel/chatapp/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#16 {main}
+"} 
